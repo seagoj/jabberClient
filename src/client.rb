@@ -1,9 +1,9 @@
 require_relative 'xmpp4r-simple.rb'
 
-json = File.read('config/config.json')
+json = File.read('../config/config.json')
 config = JSON.parse(json)
-puts config
-jabber = Jabber::Simple.new(config[:user], config[:pass])
+
+jabber = Jabber::Simple.new(config["user"], config["pass"])
 unless !jabber.connected?
 	puts "Connected!"
 	puts "Messages: "
