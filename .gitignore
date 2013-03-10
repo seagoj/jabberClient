@@ -1,1 +1,10 @@
-config\n.git\n.vagrant\ncookbooks\n.sass-cache\n*.sublime-project\n*.sublime-workspace\nThumbs.db\nDesktop.ini\n
+config
+.git
+.vagrant
+cookbooks
+.sass-cache
+*.sublime-project
+*.sublime-workspace
+
+Thumbs.db
+Desktop.ini\n
