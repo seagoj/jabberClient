@@ -1,0 +1,1 @@
+## Contributing\n\n### 1. Create an Issue on GitHub\n\n### 2. Fork & Create a Feature Branch\n\n### 3. Get the test suite running\n\n### 4. Implement your fix or feature\n\n### 5. Make a pull request

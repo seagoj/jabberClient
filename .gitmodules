@@ -1,0 +1,3 @@
+[submodule "lib/xmpp4r-simple"]
+	path = lib/xmpp4r-simple
+	url = git://github.com/blaine/xmpp4r-simple.git
