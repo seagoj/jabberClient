@@ -1,12 +1,9 @@
-require_relative 'xmpp4r-simple.rb'
+require_relative '../lib/xmpp4r-simple/lib/xmpp4r-simple.rb'
 require 'rubygems'
 require 'json'
 
 json = File.read('../config/config.json')
 config = JSON.parse(json)
-
-puts config
-abort()
 
 jabber = Jabber::Simple.new(config["user"], config["pass"])
 unless !jabber.connected?
