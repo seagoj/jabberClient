@@ -1,6 +1,6 @@
 require_relative 'xmpp4r-simple.rb'
 
-jabber = Jabber::Simple.new("mehteh@pleaseignore.com", "ka546fntdu")
+jabber = Jabber::Simple.new(user, pass)
 unless !jabber.connected?
 	puts "Connected!"
 	puts "Messages: "
